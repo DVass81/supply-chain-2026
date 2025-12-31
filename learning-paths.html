@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Learning Paths | Supply Chain (2026)</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="brand-title">Learning Paths</div>
+        <div class="brand-subtitle">Structured tracks that map to career-ready capability</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="learning-paths.html" class="active">Learning Paths</a>
+        <a href="playbooks.html">Playbooks</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>2026 Roadmap</h1>
+      <p class="muted">
+        Each path is designed as: fundamentals → tools → operating cadence → measurable outcomes.
+        Use the checkboxes to track mastery over time (saved locally in your browser).
+      </p>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <h2>Procurement & Negotiation</h2>
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-skill="proc_scope"> Scope clarity: drawings, specs, revisions, Incoterms basics</label></li>
+          <li><label><input type="checkbox" data-skill="proc_total_cost"> Total cost thinking: price + freight + quality + lead time risk</label></li>
+          <li><label><input type="checkbox" data-skill="proc_rfq"> RFQ comparability: quote sheet, assumptions, alternates</label></li>
+          <li><label><input type="checkbox" data-skill="proc_negotiation"> Negotiation prep: BATNA, leverage, concessions, close plan</label></li>
+          <li><label><input type="checkbox" data-skill="proc_contract"> Basic terms: payment, warranty, liability, change control</label></li>
+        </ul>
+        <div class="outcome">
+          <strong>Outcome metrics:</strong> PPV tracking, quote cycle time, savings with risk notes.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Supplier Performance (OTD/Quality)</h2>
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-skill="sup_scorecard"> Scorecard: OTD, quality PPM, responsiveness, lead time adherence</label></li>
+          <li><label><input type="checkbox" data-skill="sup_rootcause"> Root cause workflow: 5-Why, fishbone, containment vs corrective action</label></li>
+          <li><label><input type="checkbox" data-skill="sup_escalation"> Escalation ladder: email script, meeting structure, action log</label></li>
+          <li><label><input type="checkbox" data-skill="sup_devplan"> Supplier development plan: goals, actions, cadence, verification</label></li>
+          <li><label><input type="checkbox" data-skill="sup_risk"> Risk view: single-source exposure, capacity, quality trends</label></li>
+        </ul>
+        <div class="outcome">
+          <strong>Outcome metrics:</strong> OTD trend, corrective action closure rate, late RCA completion rate.
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Planning Fundamentals</h2>
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-skill="plan_lt"> Lead time breakdown and variability</label></li>
+          <li><label><input type="checkbox" data-skill="plan_safetystock"> Safety stock concept: demand variability vs supply variability</label></li>
+          <li><label><input type="checkbox" data-skill="plan_abc"> ABC classification and reorder policy alignment</label></li>
+          <li><label><input type="checkbox" data-skill="plan_mrp"> MRP logic: demand, BOM, offsets, reschedules, exception messages</label></li>
+          <li><label><input type="checkbox" data-skill="plan_constraints"> Constraints: capacity, MOQ, batch sizes, inspection queue</label></li>
+        </ul>
+        <div class="outcome">
+          <strong>Outcome metrics:</strong> stockouts, expedite count, inventory turns (as available).
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Analytics & Dashboards</h2>
+        <ul class="checklist">
+          <li><label><input type="checkbox" data-skill="data_clean"> Clean data: keys, duplicates, date logic, vendor normalization</label></li>
+          <li><label><input type="checkbox" data-skill="data_pq"> Power Query patterns: merge, append, unpivot, parameters</label></li>
+          <li><label><input type="checkbox" data-skill="data_kpi"> KPI design: definitions, targets, leading vs lagging indicators</label></li>
+          <li><label><input type="checkbox" data-skill="data_story"> Storytelling: what changed, why it changed, what we do next</label></li>
+          <li><label><input type="checkbox" data-skill="data_govern"> Governance: refresh cadence, owner, data dictionary</label></li>
+        </ul>
+        <div class="outcome">
+          <strong>Outcome metrics:</strong> dashboard adoption, refresh reliability, issue detection speed.
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <button class="btn" id="resetSkills">Reset All Checkboxes</button>
+    </section>
+  </main>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
